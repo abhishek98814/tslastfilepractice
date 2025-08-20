@@ -12,6 +12,14 @@ let isLoggedIn: boolean = false
 // isLoggedIn = "Abhishek"
 
 
+// This is bad Practice
 
+let hero;
 
+function getHero(){
+    return "Abhishek"
+}
 
+hero = getHero()
+
+export {}
