@@ -35,4 +35,12 @@ function signUp(name:string, email:string, isPaid:boolean){
 signUp("a","s", false)
 
 
+// try to give default value in function 
+
+let loginUser = (name:string, email:string, isPaid:boolean =false)=>{
+
+}
+loginUser("h", "ab.a")
+
+
 export {}
