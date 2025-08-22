@@ -43,4 +43,37 @@ let loginUser = (name:string, email:string, isPaid:boolean =false)=>{
 loginUser("h", "ab.a")
 
 
+function addTwo(num:number){
+    return   num+ "hRLLO"
+}
+
+// Either I declate number and return strung it allow so for better ts the function is under
+addTwo(8)
+
+
+
+function addValue(num:number):number{
+            return num + 2
+}
+
+
+addValue(78)
+// in arrow funtion same code 
+const adVall = (num:number):number => {
+    return 9;
+}
+
+// while we have two  condition in function 
+
+// in map we have to do like
+
+const heroes = ["Thor", "SpiderMan", "ironMan"]
+
+heroes.map((hero):string =>{
+    return `Hero is ${hero}`
+})
+
+
+
 export {}
+
