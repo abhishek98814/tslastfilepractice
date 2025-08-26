@@ -24,5 +24,6 @@ myUser.email = "ABHI@gmail.com"
 // it not allow cause we give there read only
 // myUser._id = "hr"
 
+console.log(myUser.email)
 
 export {}
