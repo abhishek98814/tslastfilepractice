@@ -25,3 +25,19 @@ function getId(id:number | string){
 }
 
 getId(90)
+
+
+// we can do this 
+const data: number[] = [1,3,4,6,8]
+const data2: string[] = ["Abhishek", "Sanu", "Don"]
+
+// either we have to give whole number or whole string 
+const data3: number[] | string[] = [2,5,6 ]
+
+// if we do like this this behave like any 
+
+const data4 : (string | number | boolean )[] = ["Abhi", "Sanu", "Don", 90]
+
+
+// for declare own type 
+let seatAllotment: "aisle" | "middle" | "middle" 
